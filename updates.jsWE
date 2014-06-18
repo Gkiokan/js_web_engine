@@ -1,0 +1,54 @@
+###### Javascript Web Engine #####
+# Author Gkiokan Sali
+# Project started at 04.05.2014
+# Lizense under Development
+# ##### ##### ##### #### #### ####
+
+~05.05.2014 | FPS  and running player
+-----------------------------------------
+I just was about to get more Information about
+AnimationRequestFrame, which would increase the
+Animation Speed and smotheness of this whole thing,
+but somehow it lagged extremly after some walking
+with my Charakter. So I removed it and leaved it
+as it is. I also optimized a little Stuff.
+
+While I was doing that somehow I was trying
+to fix the Bug and with some more bugfixes
+I've created the Auto running function without
+knowing it - I mean it was a bug and not forced
+to be as it is now, but it I think it's a good
+Idea.
+
+There are some other Problems with the Keystuff.
+I'm going to create a Cache function for saving
+Key Conntrols to get use of Combolist's and
+multi triggering of keypresses.
+
+
+
+~04.05.2014 | Creating The Main Structure
+-----------------------------------------
+I just started from scratch and painted all
+possible Elements at lowest Detail to get started.
+So I got The Engine Elements, Level, Player and HUD.
+Anything is made as less as possible.
+
+Level Element Positioning added within a Shema.
+Parallex scene preperation scene has been done.
+Minimalistic CSS painting for little more beautiness.
+
+Added Eventlistener to get the Keyboard interactions,
+also preventing standart functions as a Webpage.
+
+Added Collision Detection for the Street in Height.
+Position gatthering of player from css and parse
+in Int. I'll see how I will handle this in future
+beause I think as far as Javascript belongs to the PC
+and User's Browser it meight be slow to parse the
+position of the player each time, so we will see.
+
+There is also a Collision Detection for Objects
+too in my mind but this is not a function i need
+to worry about yet.
+
